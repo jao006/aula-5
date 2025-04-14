@@ -27,6 +27,15 @@ function calcular() {
         case 7:
             total = quantidade * 22.00; // X-Gourmet
             break;
+            case 8:
+            total = quantidade * 55.00; // X-Gourmet
+            break;
+        case 9:
+            total = quantidade * 44.00; // X-Gourmet
+            break;
+        case 10:
+            total = quantidade * 144.00; // X-Gourmet
+            break;
         default:
             texto.innerHTML = 'Código inválido'; // Mensagem de erro
             return; // Sai da função se o código for inválido
