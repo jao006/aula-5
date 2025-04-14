@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #634b4b; /* Cor para o nome da lanchonete */
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    background-color: #db750f; /* Cor de fundo dos blocos dos lanches */
+    border: 1px solid #000001; /* Borda dos blocos */
+    border-radius: 15px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 170px; /* Tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.item h3 {
+    margin: 10px 0 5px;
+}
+
+.item p {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    border-color: #4CAF50; /* Cor ao focar no input */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+    align-items: center;
+}
+
+#codigo, #quantidade {
+    background-color: #e7f3fe; /* Cor de fundo para os inputs */
+}
+
+#texto {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #d9534f; /* Cor para o total da compra */
+}
